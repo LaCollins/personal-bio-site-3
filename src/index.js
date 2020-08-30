@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/index.scss';
+import App from './App/App';
 import * as serviceWorker from './serviceWorker';
+import '@fortawesome/fontawesome-free/js/all';
 
 ReactDOM.render(
   <React.StrictMode>
